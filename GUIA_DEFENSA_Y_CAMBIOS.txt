@@ -1,0 +1,33 @@
+GUIA PARA DEFENDER EL PROYECTO
+
+FRASE CORTA:
+Este programa multiplica dos matrices usando Java Swing y Programacion Orientada a Objetos. La interfaz fue creada con JFrame Form para poder editarla visualmente en NetBeans.
+
+CLASES:
+Main.java:
+Ejecuta la ventana.
+
+Matriz.java:
+Modelo de datos. Tiene filas, columnas y una matriz int[][].
+
+OperacionMatriz.java:
+Interfaz que define el metodo calcular.
+
+MultiplicacionMatriz.java:
+Implementa la interfaz y contiene el algoritmo de multiplicacion.
+
+DimensionInvalidaException.java:
+Valida errores de dimensiones.
+
+MatrizGUIForm.java:
+Ventana grafica con JTable, JButton, JLabel y JTextField.
+
+ALGORITMO:
+Para calcular cada posicion del resultado:
+C[i][j] = A[i][0] * B[0][j] + A[i][1] * B[1][j] + A[i][2] * B[2][j] + A[i][3] * B[3][j]
+
+SI TE PIDE CAMBIAR ALGO:
+- Cambiar titulo: Design > selecciona lblTitulo > Properties > text.
+- Cambiar nombre de boton: Design > selecciona boton > Properties > text.
+- Cambiar dimension inicial: cambia txtDimension de 4 a otro numero.
+- Cambiar color: selecciona panel o boton > Properties > background.
